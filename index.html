@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Rural vs Urban Healthcare Quality</title>
+  </head>
+  <body>
+    <h1>Rural vs Urban Healthcare Quality</h1>
+
+    <p>Kamryn Brown, Sanjana Surapaneni, Michael Zeng, Winnie Zhang</p>
+
+    <hr />
+
+    <h2>Introduction</h2>
+
+    <p>
+      Most Americans are aware that rural communities face significant health
+      challenges. However, understanding the magnitude and causes of these
+      disparities requires deeper analysis.
+    </p>
+
+    <ul>
+      <li>Why do rural communities face worse health outcomes?</li>
+      <li>Where are the most impacted regions?</li>
+      <li>Have these disparities always existed?</li>
+    </ul>
+
+    <p>
+      Data visualization allows us to quantify these differences and reveal how
+      the gap between rural and urban healthcare has grown over time.
+    </p>
+
+    <hr />
+
+    <h2>Heat Map</h2>
+
+    <div
+      class="tableauPlaceholder"
+      id="viz1775258901594"
+      style="position: relative"
+    >
+      <noscript
+        ><a href="#"
+          ><img
+            alt="Premature Deaths Heat Map "
+            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;67&#47;6730Project_17752588786580&#47;Sheet1&#47;1_rss.png"
+            style="border: none" /></a></noscript
+      ><object class="tableauViz" style="display: none">
+        <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+        <param name="embed_code_version" value="3" />
+        <param name="site_root" value="" />
+        <param name="name" value="6730Project_17752588786580&#47;Sheet1" />
+        <param name="tabs" value="no" />
+        <param name="toolbar" value="yes" />
+        <param
+          name="static_image"
+          value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;67&#47;6730Project_17752588786580&#47;Sheet1&#47;1.png"
+        />
+        <param name="animate_transition" value="yes" />
+        <param name="display_static_image" value="yes" />
+        <param name="display_spinner" value="yes" />
+        <param name="display_overlay" value="yes" />
+        <param name="display_count" value="yes" />
+        <param name="language" value="en-US" />
+        <param name="filter" value="publish=yes" />
+      </object>
+    </div>
+    <script type="text/javascript">
+      var divElement = document.getElementById("viz1775258901594");
+      var vizElement = divElement.getElementsByTagName("object")[0];
+      vizElement.style.width = "85%";
+      vizElement.style.height = "600px";
+      var scriptElement = document.createElement("script");
+      scriptElement.src =
+        "https://public.tableau.com/javascripts/api/viz_v1.js";
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <p>
+      This heat map visualizes premature death rates across U.S. counties,
+      revealing clear geographic and demographic disparities in health outcomes.
+      Darker red regions indicate higher levels of premature mortality,
+      signaling worse healthcare outcomes, while lighter areas represent
+      relatively healthier populations. A noticeable pattern emerges in which
+      many of the darkest clusters appear in counties with higher rural
+      populations, particularly across parts of the South and Midwest. Even when
+      filtering between urban and rural classifications, rural counties
+      consistently exhibit higher premature death rates, suggesting systemic
+      differences in healthcare access, socioeconomic conditions, and resource
+      availability. By maintaining a consistent color scale across filters, the
+      visualization highlights that these disparities are not artifacts of
+      rescaling but reflect genuine differences in health outcomes. Overall, the
+      map underscores a widening rural health disadvantage and supports the
+      broader argument that geographic location plays a significant role in
+      determining population health.
+    </p>
+
+    <hr />
+
+    <h2>Hospital Closures</h2>
+
+    <div
+      class="tableauPlaceholder"
+      id="viz1775259942093"
+      style="position: relative"
+    >
+      <noscript
+        ><a href="#"
+          ><img
+            alt="Rural Hospital Closures by Year "
+            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5W&#47;5WTYXGK3S&#47;1_rss.png"
+            style="border: none" /></a></noscript
+      ><object class="tableauViz" style="display: none">
+        <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+        <param name="embed_code_version" value="3" />
+        <param name="path" value="shared&#47;5WTYXGK3S" />
+        <param name="toolbar" value="yes" />
+        <param
+          name="static_image"
+          value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5W&#47;5WTYXGK3S&#47;1.png"
+        />
+        <param name="animate_transition" value="yes" />
+        <param name="display_static_image" value="yes" />
+        <param name="display_spinner" value="yes" />
+        <param name="display_overlay" value="yes" />
+        <param name="display_count" value="yes" />
+        <param name="language" value="en-US" />
+        <param name="filter" value="publish=yes" />
+      </object>
+    </div>
+    <script type="text/javascript">
+      var divElement = document.getElementById("viz1775259942093");
+      var vizElement = divElement.getElementsByTagName("object")[0];
+      vizElement.style.width = "85%";
+      vizElement.style.height = "600px";
+      var scriptElement = document.createElement("script");
+      scriptElement.src =
+        "https://public.tableau.com/javascripts/api/viz_v1.js";
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <p>
+      Rural hospital closures have increased much faster than urban closures,
+      widening the healthcare access gap.
+    </p>
+
+    <ul>
+      <li>Rural closures grew significantly faster than urban closures</li>
+      <li>The Affordable Care Act (2010) marks a key policy moment</li>
+      <li>
+        By 2020, rural areas lost nearly 6x more hospitals than urban areas
+      </li>
+    </ul>
+
+    <p>
+      This is especially concerning because rural areas already have fewer
+      hospitals to begin with.
+    </p>
+
+    <hr />
+
+    <h2>Lifespan Divergence</h2>
+
+    <div id="hospital-chart" style="margin: 40px 0">
+      <img src="deaths.jpg" width="1000" alt="Lifespan Divergence" />
+    </div>
+
+    <p>
+      Most Americans already know that rural communities face worse health
+      outcomes. But this chart shows that it wasn’t always this way.
+    </p>
+
+    <p>
+      For much of the late 20th century, urban and rural mortality rates moved
+      closely together, falling at nearly the same pace. The gap was almost easy
+      to overlook. Around the 1990s, the lines begin to separate with urban
+      areas continuing to improve. Rural areas slow down, then stall. What was
+      once a narrow difference turns into a clear and persistent divide.
+    </p>
+
+    <p>
+      This shift suggests the problem isn’t something fixed or inevitable about
+      rural places, it is something that developed over time. Key moments and
+      policy changes like the Balanced Budget Act, expansions under the
+      Affordable Care Act, or shocks like COVID frame where that separation
+      accelerates.
+    </p>
+
+    <p>
+      Alongside the other visuals, a wider perspective reveals this isn’t just a
+      known issue, but a growing one. What began as a small difference slowly
+      snowballs over time. Each year adds a little more distance, reflecting
+      differences in access, resources, and how far the healthcare system
+      reaches.
+    </p>
+
+    <hr />
+
+    <h2>Conclusion</h2>
+
+    <p>
+      This project highlights a growing disparity in healthcare quality between
+      rural and urban communities. Through visualization, we can better
+      understand where and why these gaps exist and why they continue to expand.
+    </p>
+
+    <hr />
+  </body>
+</html>
