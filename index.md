@@ -3,9 +3,6 @@ layout: default
 title: Rural vs Urban Healthcare Quality
 ---
 
-# Rural vs Urban Healthcare Quality
-
-Kamryn Brown, Sanjana Surapaneni, Michael Zeng, Winnie Zhang
 
 ---
 
@@ -52,7 +49,7 @@ value="https://public.tableau.com/static/images/67/6730Project_17752588786580/Sh
 <script type="text/javascript">
 var divElement = document.getElementById("viz1775258901594");
 var vizElement = divElement.getElementsByTagName("object")[0];
-vizElement.style.width = "85%";
+vizElement.style.width = "100%";
 vizElement.style.height = "600px";
 var scriptElement = document.createElement("script");
 scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
@@ -103,7 +100,7 @@ value="https://public.tableau.com/static/images/5W/5WTYXGK3S/1.png" />
 <script type="text/javascript">
 var divElement = document.getElementById("viz1775259942093");
 var vizElement = divElement.getElementsByTagName("object")[0];
-vizElement.style.width = "85%";
+vizElement.style.width = "100%";
 vizElement.style.height = "600px";
 var scriptElement = document.createElement("script");
 scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
