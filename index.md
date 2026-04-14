@@ -76,57 +76,53 @@ where you live plays a significant role in how long you live.
 
 ## Hospital Closures
 
-<div class="tableauPlaceholder" id="viz1775259942093" style="position: relative">
-<noscript><a href="#"><img alt="Rural Hospital Closures by Year "
-src="https://public.tableau.com/static/images/5W/5WTYXGK3S/1_rss.png"
-style="border: none" /></a></noscript>
-<object class="tableauViz" style="display: none">
-<param name="host_url" value="https://public.tableau.com/" />
-<param name="embed_code_version" value="3" />
-<param name="path" value="shared/5WTYXGK3S" />
-<param name="toolbar" value="yes" />
-<param name="static_image"
-value="https://public.tableau.com/static/images/5W/5WTYXGK3S/1.png" />
-<param name="animate_transition" value="yes" />
-<param name="display_static_image" value="yes" />
-<param name="display_spinner" value="yes" />
-<param name="display_overlay" value="yes" />
-<param name="display_count" value="yes" />
-<param name="language" value="en-US" />
-<param name="filter" value="publish=yes" />
-</object>
+<div
+  class="tableauPlaceholder"
+  id="viz1776209390217"
+  style="position: relative"
+>
+  <noscript
+    ><a href="#"
+      ><img
+        alt="Hospital Closures by Year: Metro vs. Rural "
+        src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HospitalClosuresRuralvsUrban&#47;Sheet1&#47;1_rss.png"
+        style="border: none" /></a></noscript
+  ><object class="tableauViz" style="display: none">
+    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+    <param name="embed_code_version" value="3" />
+    <param name="site_root" value="" />
+    <param name="name" value="HospitalClosuresRuralvsUrban&#47;Sheet1" />
+    <param name="tabs" value="no" />
+    <param name="toolbar" value="yes" />
+    <param
+      name="static_image"
+      value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HospitalClosuresRuralvsUrban&#47;Sheet1&#47;1.png"
+    />
+    <param name="animate_transition" value="yes" />
+    <param name="display_static_image" value="yes" />
+    <param name="display_spinner" value="yes" />
+    <param name="display_overlay" value="yes" />
+    <param name="display_count" value="yes" />
+    <param name="language" value="en-US" />
+    <param name="filter" value="publish=yes" />
+  </object>
 </div>
-
 <script type="text/javascript">
-var divElement = document.getElementById("viz1775259942093");
-var vizElement = divElement.getElementsByTagName("object")[0];
-vizElement.style.width = "100%";
-vizElement.style.height = "600px";
-var scriptElement = document.createElement("script");
-scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
-vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  var divElement = document.getElementById("viz1776209390217");
+  var vizElement = divElement.getElementsByTagName("object")[0];
+  vizElement.style.width = "100%";
+  vizElement.style.height = "600px";
+  var scriptElement = document.createElement("script");
+  scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-Access to healthcare is not equal across the United States. While urban
-communities generally have multiple hospitals and clinics within a short
-distance, millions of Americans living in rural areas are facing a
-drastically different reality, one where the nearest hospital may be hours
-away, or may no longer exist at all.
 
-Since 2005, 195 rural hospitals across the United States have closed or
-converted their services, stripping rural communities of critical access
-to emergency care, inpatient services, and specialty medicine. These are
-not just statistics, each closure represents a community left without a
-safety net, where a heart attack or a complicated childbirth could now
-mean a life-threatening delay in care.
+Access to healthcare is not equal across the United States. While urban communities generally have multiple hospitals and clinics within a short distance, millions of Americans living in rural areas are facing a drastically different reality where the nearest hospital may be hours away, or may no longer exist at all. Since 2005 195 rural hospitals across the United States have closed or converted their services, stripping rural communities of critical access to emergency care, inpatient services, and specialty medicine. These are not just statistics, each closure represents a community left without a safety net, where a heart attack or a complicated childbirth could now mean a life-threatening delay in care. The data used in this visualization comes from the UNC Cecil G. Sheps Center for Health Services Research, the most widely cited source for rural hospital closure tracking in the United States.
 
-The rate of rural hospital closures has accelerated significantly since
-2010, with some years seeing nearly double-digit shutdowns. Financial
-pressures are a major driver, rural hospitals frequently operate on
-razor-thin margins, serving populations that are older, poorer, and more
-likely to be uninsured or on Medicaid than their urban counterparts. When
-reimbursement rates fall short of operating costs, closure becomes
-inevitable.
+Financial pressure is the primary driver behind rural hospital closures, but the causes run deeper than balance sheets alone. Rural hospitals frequently serve populations that are older, poorer, and more likely to be uninsured or on Medicaid than their urban counterparts, making it harder to generate the revenue needed to stay operational. Low patient volume, aging infrastructure, and inadequate Medicare and Medicaid reimbursement rates have pushed hundreds of facilities to the brink. When a rural hospital closes, the effects ripple outwards. Jobs disappear, local economies weaken, and residents are left with impossible choices about where to seek care. Research has shown that communities that lose their only hospital experience measurable increases in mortality rates, reduced emergency response capabilities, and long-term economic decline that can last for decades.
+
+The interactive chart above breaks down hospital closures by two categories: rural hospitals located in or near urban metro areas, and those in the most remote and isolated rural communities. By comparing these two groups over time, a clear pattern emerges, closures have not been evenly distributed even within rural America. The most isolated communities have faced higher rates of hospital loss, compounding already serious challenges around healthcare access, transportation, and provider shortages. Use the state dropdown to explore how these trends have played out in specific states, and to see which regions have been hit hardest over the past two decades.
 
 ---
 
