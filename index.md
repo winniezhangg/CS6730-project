@@ -196,10 +196,10 @@ In rural communities:
 
 ## Rural vs Urban Snapshot:
 
--> Higher premature death rates in rural counties
--> Fewer hospitals and providers per capita
--> Slower improvements in life expectancy
--> This is a gap that is consistent across multiple measures.
+- Higher premature death rates in rural counties
+- Fewer hospitals and providers per capita
+- Slower improvements in life expectancy
+- This is a gap that is consistent across multiple measures.
 
 ---
 
