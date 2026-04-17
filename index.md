@@ -3,25 +3,21 @@ layout: default
 title: Rural vs Urban Healthcare Quality
 ---
 
-
 ---
 
 ## Introduction
 
-Most Americans are aware that rural communities face significant health
-challenges. However, understanding the magnitude and causes of these
-disparities requires deeper analysis.
+Healthcare disparities between rural and urban communities in the United States are widely acknowledged, but the scale, causes, and evolution of these differences are not clearly understood. This project uses different visualizations to explore how healthcare outcomes diverge across geography and over time. Our analysis focuses on three key questions:
 
-- Why do rural communities face worse health outcomes?
-- Where are the most impacted regions?
-- Have these disparities always existed?
+- Where are the most heavily impacted regions?
+- Why do rural communities experience worse health outcomes?
+- How have these disparities evolved historically?
 
-Data visualization allows us to quantify these differences and reveal how
-the gap between rural and urban healthcare has grown over time.
+Our visualizations, including a heat map of premature death rates, trends in rural hospital closures, and a time-series analysis of lifespan divergence, show that rural communities consistently experience higher mortality rates, reduced healthcare access, and slower improvements in life expectancy.
 
 ---
 
-## Heat Map
+## Premature Deaths Are Concentrated in Rural America:
 
 <div class="tableauPlaceholder" id="viz1775258901594" style="position: relative">
 <noscript><a href="#"><img alt="Premature Deaths Heat Map "
@@ -74,7 +70,7 @@ where you live plays a significant role in how long you live.
 
 ---
 
-## Hospital Closures
+## Rural Hospitals Are Disappearing and Access is Shrinking:
 
 <div
   class="tableauPlaceholder"
@@ -117,7 +113,6 @@ where you live plays a significant role in how long you live.
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-
 Access to healthcare is not equal across the United States. While urban communities generally have multiple hospitals and clinics within a short distance, millions of Americans living in rural areas are facing a drastically different reality where the nearest hospital may be hours away, or may no longer exist at all. Since 2005 195 rural hospitals across the United States have closed or converted their services, stripping rural communities of critical access to emergency care, inpatient services, and specialty medicine. These are not just statistics, each closure represents a community left without a safety net, where a heart attack or a complicated childbirth could now mean a life-threatening delay in care. The data used in this visualization comes from the UNC Cecil G. Sheps Center for Health Services Research, the most widely cited source for rural hospital closure tracking in the United States.
 
 Financial pressure is the primary driver behind rural hospital closures, but the causes run deeper than balance sheets alone. Rural hospitals frequently serve populations that are older, poorer, and more likely to be uninsured or on Medicaid than their urban counterparts, making it harder to generate the revenue needed to stay operational. Low patient volume, aging infrastructure, and inadequate Medicare and Medicaid reimbursement rates have pushed hundreds of facilities to the brink. When a rural hospital closes, the effects ripple outwards. Jobs disappear, local economies weaken, and residents are left with impossible choices about where to seek care. Research has shown that communities that lose their only hospital experience measurable increases in mortality rates, reduced emergency response capabilities, and long-term economic decline that can last for decades.
@@ -126,7 +121,17 @@ The interactive chart above breaks down hospital closures by two categories: rur
 
 ---
 
-## Lifespan Divergence
+## Rural Areas Have Fewer Primary Care Providers Per Person Than Urban Areas:
+
+<div id="providers-chart" style="margin: 40px 0">
+  <img src="providers.jpg" width="800" alt="Lifespan Divergence" />
+</div>
+
+The population-to-provider ratio highlights disparities in access to primary care across the United States. Rural areas have significantly higher ratios than urban areas, meaning each doctor serves more people. This indicates fewer available providers per person and makes it harder for rural residents to access timely and preventive care. In contrast, urban areas benefit from a higher concentration of providers, allowing for more accessible and consistent healthcare services.
+
+---
+
+## Rural and Urban Life Expectancy is Splitting Apart:
 
 <div id="hospital-chart" style="margin: 40px 0">
   <img src="deaths.jpg" width="1000" alt="Lifespan Divergence" />
@@ -152,6 +157,69 @@ known issue, but a growing one. What began as a small difference slowly
 snowballs over time. Each year adds a little more distance, reflecting
 differences in access, resources, and how far the healthcare system
 reaches.
+
+---
+
+## Why are Rural Health Outcomes Worse?:
+
+Several structural factors drive worse outcomes in rural areas:
+
+- Fewer healthcare providers per capita
+- Longer travel distances to hospitals
+- Higher uninsured or underinsured populations
+- Older population demographics
+- Lower income and higher poverty rates
+  These factors compound over time, creating systemic disadvantages in access and care.
+
+---
+
+## When Did the Gap Start Growing?:
+
+Some events that shaped this divide include:
+
+- 1997 – Balanced Budget Act reduces rural hospital funding
+- 2010 – Affordable Care Act expands coverage unevenly across states
+- 2020 – COVID-19 intensifies disparities in already vulnerable regions
+
+---
+
+## What This Means for People:
+
+In rural communities:
+
+- Emergency response times can be significantly longer
+- Patients may travel hours for basic care
+- Preventable conditions become life-threatening
+  This is a reflection on the differences in survival and quality of life between rural and urban communities.
+
+---
+
+## Rural vs Urban Snapshot:
+
+-> Higher premature death rates in rural counties
+-> Fewer hospitals and providers per capita
+-> Slower improvements in life expectancy
+-> This is a gap that is consistent across multiple measures.
+
+---
+
+## What Happens Next?:
+
+If current trends continue, rural communities may face:
+
+- Increasing hospital closures
+- Widening life expectancy gaps
+- Greater strain on remaining healthcare systems
+  Addressing these disparities will require targeted policy and investment in rural healthcare infrastructure.
+
+---
+
+## Key Takeaways:
+
+- Rural health disparities are real and growing
+- The gap has widened significantly since the 1990s
+- Hospital closures and access barriers play a major role
+- Without intervention, disparities will continue to expand
 
 ---
 
